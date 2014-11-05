@@ -21,16 +21,22 @@ header figure
 {
 	display:flex;
 	display: -webkit-flex;
+	flex-flow: row wrap;
 	list-style:none;
+	justify-content: space-around;
 }
 
 .cajas
 {
 	background:red;
-	margin:0.5%;
-	-webkit-flex: initial;
-	flex: initial;
-	width: 30%;
+	padding:5px;
+	
+	/*-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;*/
+	width: 200px;
+	height:150px;
+	margin-top: 10px;
+	text-align:center;
 	
 }
 
